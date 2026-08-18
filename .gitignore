@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+
+# Wrangler
+/.wrangler
+
+# TypeScript build output
+dist/
+
+# System files
+.DS_Store
+
+# Logs
+npm-debug.log*
+
+# Claude
+CLAUDE.md
+.claude
+
+# Playwright MCP
+.playwright-mcp
+
+# Roadmap
+roadmap/

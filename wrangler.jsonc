@@ -1,0 +1,26 @@
+{
+  "name": "access-denied-info-page",
+  "account_id": "6b3bd3e4a3c3f11b51c67f98641a8688",
+  "workers_dev": false,
+  "compatibility_date": "2024-11-25",
+  "main": "src/main.ts",
+  "routes": [
+    {
+      "pattern": "denied.macharpe.com",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "CORS_ORIGIN": "https://denied.macharpe.com",
+    "ACCOUNT_ID": "6b3bd3e4a3c3f11b51c67f98641a8688",
+    "ORGANIZATION_NAME": "macharpe",
+    "ORGANIZATION_DOMAIN": "macharpe.com",
+    "ACCESS_DOMAIN": "denied.macharpe.com",
+    "TARGET_GROUP": "ZeroTrust",
+    "HISTORY_HOURS_BACK": "2"
+  },
+  // Observability - provides Worker analytics and logs
+  "observability": {
+    "enabled": true
+  }
+}
